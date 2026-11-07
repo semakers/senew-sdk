@@ -14,7 +14,7 @@ See also: [`sdk-api.md`](sdk-api.md) (the API, function by function) · [`apps-c
 |---|---|---|
 | `arm-none-eabi-gcc` (bare-metal toolchain) | build the app | Arm GNU Toolchain **15.2.Rel1** (macOS arm64) and **15.2.0** (Fedora, package `arm-none-eabi-gcc-cs`) |
 | GNU make | `Makefile` | 4.x (on macOS use Homebrew's: `brew install make`, then `gmake` or put `gnubin` in your `PATH`) |
-| Python | packaging (`tools/sen_empaquetar.py`) | 3.9 to 3.13; **standard library only** |
+| Python | packaging (`tools/sen_empaquetar.py`) | 3.9 to 3.14 (tried 3.9.6, 3.12.8 and 3.14.3); **standard library only** |
 | git | clone the SDK | any |
 
 No libc, no newlib, no operating system: the app is *freestanding* and only uses `libgcc` (shipped with the toolchain) for arithmetic the ARM926 does not do in hardware (e.g. division).

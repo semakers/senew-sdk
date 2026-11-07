@@ -31,7 +31,7 @@ make SENEW_SDK=../senew-sdk          # -> build/hello.sen
 Then open **SENUS** (<https://github.com/semakers/senus>) with the phone connected → **Apps** → **"Subir .sen"**.
 Real, complete apps that build with this SDK: [`senew-app-*`](https://github.com/semakers?tab=repositories&q=senew-app) (calculator, notes, camera, network demo, music…).
 
-Tested toolchains: Arm GNU Toolchain 15.2.Rel1 (macOS arm64) and Fedora's `arm-none-eabi-gcc-cs` 15.2.0. The packager is pure-stdlib Python (3.9–3.13 tried).
+Tested toolchains: Arm GNU Toolchain 15.2.Rel1 (macOS arm64) and Fedora's `arm-none-eabi-gcc-cs` 15.2.0. The packager is pure-stdlib Python (3.9.6, 3.12.8 and 3.14.3 tried).
 
 ## Documentation
 
@@ -81,7 +81,7 @@ make SENEW_SDK=../senew-sdk          # -> build/hello.sen
 Después abre **SENUS** (<https://github.com/semakers/senus>) con el teléfono conectado → **Apps** → **«Subir .sen»**.
 Apps reales y completas que compilan con este SDK: [`senew-app-*`](https://github.com/semakers?tab=repositories&q=senew-app) (calculadora, notas, cámara, demo de red, música…).
 
-Cadenas probadas: Arm GNU Toolchain 15.2.Rel1 (macOS arm64) y `arm-none-eabi-gcc-cs` 15.2.0 de Fedora. El empaquetador es Python con solo la biblioteca estándar (probado en 3.9–3.13).
+Cadenas probadas: Arm GNU Toolchain 15.2.Rel1 (macOS arm64) y `arm-none-eabi-gcc-cs` 15.2.0 de Fedora. El empaquetador es Python con solo la biblioteca estándar (probado en 3.9.6, 3.12.8 y 3.14.3).
 
 ## Documentación
 
