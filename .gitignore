@@ -1,0 +1,4 @@
+build/
+.senew-sdk/
+__pycache__/
+*.pyc
